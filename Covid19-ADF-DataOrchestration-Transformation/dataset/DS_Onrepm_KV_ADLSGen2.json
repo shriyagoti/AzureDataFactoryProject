@@ -1,0 +1,17 @@
+{
+	"name": "DS_Onrepm_KV_ADLSGen2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQLonprem",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "staff"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

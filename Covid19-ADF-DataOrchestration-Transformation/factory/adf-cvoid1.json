@@ -1,0 +1,9 @@
+{
+	"name": "adf-cvoid1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3d104360-97b3-4a08-bc0f-4a7f3e3df63c",
+		"tenantId": "2a69c91d-e849-4e34-a230-cdf8b27e1964"
+	}
+}

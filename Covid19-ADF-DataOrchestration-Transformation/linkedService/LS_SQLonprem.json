@@ -1,0 +1,25 @@
+{
+	"name": "LS_SQLonprem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "Integrated Security=True;Data Source=DESKTOP-19GQJH5\\SQLEXPRESS;Initial Catalog=DreamHome",
+			"userName": "DESKTOP-19GQJH5\\gotim",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KV",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sqlonprempass",
+				"secretVersion": "9ed72c8785d344babe677ef1b4839a68"
+			}
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
